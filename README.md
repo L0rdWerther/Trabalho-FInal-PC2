@@ -2,6 +2,12 @@
 
 Este projeto é uma aplicação Java para gerenciar clientes, chalés e hospedagens. Ele utiliza um banco de dados PostgreSQL para armazenar as informações.
 
+## Informações
+
+    Disciplina: Programação de Computadores 2
+    Autores: João Henrique Rodrigues Lopes e Sofia Teixeira da Paixão da Silva
+
+
 ## Estrutura do Projeto
 
 - `src/MainApp.java`: Classe principal que inicializa a aplicação.
@@ -32,10 +38,11 @@ Este projeto é uma aplicação Java para gerenciar clientes, chalés e hospedag
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/L0rdWerther/gerenciamento-hospedagem.git
+    git clone https://github.com/L0rdWerther/Trabalho-FInal-PC2
     ```
 2. Abra o projeto na sua IDE Java.
-3. Configure as credenciais do banco de dados no arquivo `src/DatabaseUtil.java`:
+3. Adicione a biblioteca `dependencia/postgresql-42.2.23.jar` ao projeto.
+4. Configure as credenciais do banco de dados no arquivo `src/DatabaseUtil.java`:
     ```java
     private static final String URL = "jdbc:postgresql://localhost:5432/seu_banco_de_dados";
     private static final String USER = "seu_usuario";
